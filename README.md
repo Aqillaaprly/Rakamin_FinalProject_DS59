@@ -36,13 +36,9 @@ This folder contains all the interface pages that are shown during the deploymen
 
 * **Purpose:** To save the source code for the visual interface presented to the end-users.
 
-### **`app.py`:** The main execution script (Streamlit deployment) that connects the models and the `views/` interface.
-### **`recruitment_efficiency_improved.csv`:** The core dataset used for training and testing the models.
-### **`requirements.txt`:** Lists all necessary Python libraries and their specific versions to ensure the project runs correctly in any environment.
-
----
-
----
-
-
-
+### **`app.py`:** 
+The main execution script (Streamlit deployment) that connects the models and the `views/` interface.
+### **`recruitment_efficiency_improved.csv`:** 
+The core dataset used for training and testing the models.
+### **`requirements.txt`:** 
+Lists all necessary Python libraries and their specific versions to ensure the project runs correctly in any environment.

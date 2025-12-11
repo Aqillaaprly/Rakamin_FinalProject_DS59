@@ -340,9 +340,9 @@ def run():
                 st.write("---") 
                 
                 st.markdown(f"""
-                    - **Predicted Time (Waktu):** {time_val:.0f} hari ({round(100*(1-t_scaled), 1)}% skor, bobot {time_w_used*100:.0f}%)
-                    - **Predicted Cost (Biaya):** ${cost_val:.0f} ({round(100*(1-c_scaled), 1)}% skor, bobot {cost_w_used*100:.0f}%)
-                    - **Predicted OAR (Tingkat Penerimaan):** {oar_val:.2f} ({round(100*o_scaled, 1)}% skor, bobot {oar_w_used*100:.0f}%)
+                    - **Predicted Time (Waktu):** {time_val:.0f} hari (dengan bobot {time_w_used*100:.0f}%)
+                    - **Predicted Cost (Biaya):** ${cost_val:.0f} dengan (bobot {cost_w_used*100:.0f}%)
+                    - **Predicted OAR (Tingkat Penerimaan):** {oar_val:.2f} (dengan bobot {oar_w_used*100:.0f}%)
                 """)
                 
                 st.markdown(f"**Optimal Score** dihitung sebagai:")

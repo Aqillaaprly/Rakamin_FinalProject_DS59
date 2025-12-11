@@ -341,7 +341,7 @@ def run():
                 
                 st.markdown(f"""
                     - **Predicted Time (Waktu):** {time_val:.0f} hari (dengan bobot {time_w_used*100:.0f}%)
-                    - **Predicted Cost (Biaya):** ${cost_val:.0f} dengan (bobot {cost_w_used*100:.0f}%)
+                    - **Predicted Cost (Biaya):** ${cost_val:.0f} (dengan bobot {cost_w_used*100:.0f}%)
                     - **Predicted OAR (Tingkat Penerimaan):** {oar_val:.2f} (dengan bobot {oar_w_used*100:.0f}%)
                 """)
                 
